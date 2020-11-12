@@ -42,6 +42,7 @@ subprojects {
     apply {
         plugin("org.jetbrains.kotlin.jvm")
         plugin("java")
+        plugin("signing")
     }
 
     // Gradle metadata
